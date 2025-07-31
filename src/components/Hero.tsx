@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute inset-auto w-full flex place-content-center left-0 -bottom-20">
-        <div className="bg-red-900 blur-3xl rounded-full h-96 w-3/6 backdrop-blur-[200px]" />
+        <div className="bg-red-900 blur-[150px] rounded-full h-96 w-3/6 backdrop-blur-[200px]" />
       </div>
     </section>
   );
