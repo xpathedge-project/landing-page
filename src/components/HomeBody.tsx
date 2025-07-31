@@ -23,7 +23,7 @@ const HomeBody = () => {
           </p>
         </div>
         <div className="flex flex-wrap gap-4">
-          {Array.from({ length: 9 }).map((_, index) => (
+          {Array.from({ length: 9 }).map(() => (
             <div className="bg-[#1b1b1b] px-3 py-3 rounded-md">
               <div className="flex items-center space-x-2 text-sm">
                 <p>Write a attractive hero title for the following website </p>
