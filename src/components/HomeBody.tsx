@@ -216,13 +216,16 @@ const HomeBody = () => {
 
       {/* CTA */}
       <section className="mt-32 text-center mb-32">
-        <div className="w-5/6 mx-auto mb-14 bg-[#0E0E0E] p-20">
+        <div className="w-5/6 mx-auto mb-14 bg-[#0E0E0E] p-20 relative overflow-hidden">
+          <div className="absolute inset-auto flex place-content-center top-0 right-0">
+            <div className="bg-white blur-[130px] rounded-full h-36 w-36" />
+          </div>
           <p className="text-5xl mb-10">
             Xpathedge has no limitation. Get started on a journey with
             Xpathedge.
           </p>
           <button className="bg-white text-black px-6 py-2 rounded-full hover:bg-[#f0f0f0] cursor-pointer">
-            Book a consultation call
+            Book A Consultation Call
           </button>
         </div>
       </section>

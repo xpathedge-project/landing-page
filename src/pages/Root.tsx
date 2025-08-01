@@ -9,6 +9,9 @@ const Root = () => {
       <hr className="border-gray-700" />
       <div className="mx-auto w-10/12">
         <Outlet />
+      </div>
+      <hr className="border-gray-700" />
+      <div className="mx-auto w-10/12">
         <Footer />
       </div>
     </div>
