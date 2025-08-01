@@ -9,7 +9,10 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" text-white py-10 px-6 text-center md:text-left">
+    <footer className=" text-white py-10 px-6 text-center md:text-left relative overflow-hidden">
+      <div className="absolute inset-auto w-full flex place-content-center -top-10 right-[00px]">
+        <div className="bg-white blur-[200px] rounded-full h-20 w-3/5" />
+      </div>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h3 className="text-white mb-4">Navigation</h3>
