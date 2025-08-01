@@ -215,14 +215,14 @@ const HomeBody = () => {
       </section>
 
       {/* CTA */}
-      <section className="mt-32 text-center">
-        <div className="w-5/6 mx-auto mb-14">
-          <p className="text-5xl">
+      <section className="mt-32 text-center mb-32">
+        <div className="w-5/6 mx-auto mb-14 bg-[#0E0E0E] p-20">
+          <p className="text-5xl mb-10">
             Xpathedge has no limitation. Get started on a journey with
             Xpathedge.
           </p>
-          <button className="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 cursor-pointer">
-            Contact Us
+          <button className="bg-white text-black px-6 py-2 rounded-full hover:bg-[#f0f0f0] cursor-pointer">
+            Book a consultation call
           </button>
         </div>
       </section>
