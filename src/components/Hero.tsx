@@ -17,14 +17,14 @@ const Hero = () => {
       </div>
       <div className="relative z-10">
         <p className="text-sm text-gray-400 mb-2">Who we are</p>
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        <h1 className="text-3xl md:text-6xl font-bold mb-4">
           We Turn Big Ideas into <br /> Scalable Business <br /> Results.
         </h1>
-        <p className="text-sm text-gray-300 mb-6 w-3/6 text-center mx-auto">
+        <p className="md:text-sm text-gray-300 mb-6 md:w-3/6 w-full text-lg text-center mx-auto">
           From strategy to execution, we help innovative companies unlock growth
           through tailored technology, design, data, and digital marketing.
         </p>
-        <div className="space-x-4">
+        <div className="space-x-4 flex justify-center gap-y-4 flex-col md:block">
           <button className="bg-transparent outline outline-[#dfc2c2] text-[#dfc2c2] px-6 py-2 rounded-full hover:bg-gray-200 hover:text-black cursor-pointer">
             <p className="inline pr-3">Build With Us</p>
             <MagicWandIcon size={18} className="inline" />

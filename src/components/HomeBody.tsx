@@ -12,7 +12,7 @@ const HomeBody = () => {
     <>
       {/* Some of our works */}
       <section className="mt-32">
-        <div className="w-4/6 mx-auto mb-14">
+        <div className="md:w-4/6 w-full mx-auto mb-14">
           <p className="text-3xl text-center mb-7">Some of Our Works</p>
           <p className="text-center text-[#ffffffb3]">
             Discover endless creativity with PromptVerse. Generate diverse
@@ -39,7 +39,7 @@ const HomeBody = () => {
 
       {/* Our leading product */}
       <section className="mt-32">
-        <div className="w-4/6 mx-auto mb-14">
+        <div className="md:w-4/6 w-full mx-auto mb-14">
           <p className="text-3xl text-center mb-7">Our Leading Product</p>
           <p className="text-center text-[#ffffffb3]">
             Discover endless creativity with PromptVerse. Generate diverse
@@ -66,7 +66,7 @@ const HomeBody = () => {
 
       {/* And More Magic */}
       <section className="mt-32">
-        <div className="w-4/6 mx-auto mb-14">
+        <div className="md:w-4/6 w-full mx-auto mb-14">
           <p className="text-3xl text-center mb-7">And More Magic</p>
           <p className="text-center text-[#ffffffb3]">
             Discover endless creativity with PromptVerse. Generate diverse
@@ -77,8 +77,8 @@ const HomeBody = () => {
           </p>
         </div>
 
-        <div className="w-5/6 mx-auto mt-24">
-          <div className="grid grid-cols-2 gap-x-3">
+        <div className="md:w-5/6 w-full mx-auto md:mt-24">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-y-3 md:gap-x-3">
             <div>
               <img src={Column} alt="Column" />
             </div>
@@ -94,7 +94,7 @@ const HomeBody = () => {
 
       {/* This is what our clients are saying */}
       <section className="mt-32">
-        <div className="w-4/6 mx-auto mb-14">
+        <div className="md:w-4/6 w-full mx-auto mb-14">
           <p className="text-3xl text-center mb-7">
             This is What Our Clients Are Saying
           </p>
@@ -107,7 +107,7 @@ const HomeBody = () => {
           </p>
         </div>
 
-        <div className="w-5/6 mx-auto mt-24 grid grid-cols-2 gap-x-2 bg-[#0E0E0E] p-10 rounded-sm">
+        <div className="md:w-5/6 w-full mx-auto mt-24 md:grid md:grid-cols-2 flex flex-col gap-y-6 md:gap-x-2 bg-[#0E0E0E] md:p-10 p-4 rounded-sm">
           <div>
             <p className="text-3xl mb-10">
               Enhance Your Projects with Ultra-Realistic AI Voices
@@ -162,7 +162,7 @@ const HomeBody = () => {
           </p>
           <hr className="border-gray-500" />
 
-          <div className="grid grid-cols-3 gap-x-10 mt-10 gap-y-7">
+          <div className="md:grid md:grid-cols-3 gap-x-10 mt-10 gap-y-7 flex flex-wrap">
             <div>
               <p className="mb-3">Product Design</p>
               <p className="text-[#828282]">
@@ -216,7 +216,7 @@ const HomeBody = () => {
 
       {/* CTA */}
       <section className="mt-32 text-center mb-32">
-        <div className="w-5/6 mx-auto mb-14 bg-[#0E0E0E] p-20 relative overflow-hidden">
+        <div className="md:w-5/6 w-full mx-auto mb-14 bg-[#0E0E0E] p-20 relative overflow-hidden">
           <div className="absolute inset-auto flex place-content-center top-0 right-0">
             <div className="bg-white blur-[130px] rounded-full h-36 w-36" />
           </div>
@@ -225,7 +225,8 @@ const HomeBody = () => {
             Xpathedge.
           </p>
           <button className="bg-white text-black px-6 py-2 rounded-full hover:bg-[#f0f0f0] cursor-pointer">
-            Book A Consultation Call
+            Book A <span className="hidden md:inline">Consultation</span>
+            Call
           </button>
         </div>
       </section>
